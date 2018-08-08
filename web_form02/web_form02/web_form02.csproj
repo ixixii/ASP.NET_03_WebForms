@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{46159A42-1F98-460D-B213-DC4D1744BA21}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>web_form02</RootNamespace>
+    <AssemblyName>web_form02</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+    <Content Include="Default.aspx" />
+    <Content Include="Threads.aspx" />
+    <Content Include="Cache1.aspx" />
+    <Content Include="Cache2.aspx" />
+    <Content Include="Cache3.aspx" />
+    <Content Include="ErrorHandle.aspx" />
+    <Content Include="Linq.aspx" />
+    <Content Include="Footer.ascx" />
+    <Content Include="UserControl.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Threads.aspx.cs">
+      <DependentUpon>Threads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Threads.aspx.designer.cs">
+      <DependentUpon>Threads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cache1.aspx.cs">
+      <DependentUpon>Cache1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cache1.aspx.designer.cs">
+      <DependentUpon>Cache1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cache2.aspx.cs">
+      <DependentUpon>Cache2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cache2.aspx.designer.cs">
+      <DependentUpon>Cache2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cache3.aspx.cs">
+      <DependentUpon>Cache3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cache3.aspx.designer.cs">
+      <DependentUpon>Cache3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorHandle.aspx.cs">
+      <DependentUpon>ErrorHandle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorHandle.aspx.designer.cs">
+      <DependentUpon>ErrorHandle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Girl.cs" />
+    <Compile Include="Linq.aspx.cs">
+      <DependentUpon>Linq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Linq.aspx.designer.cs">
+      <DependentUpon>Linq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GirlAnime.cs" />
+    <Compile Include="Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl.aspx.cs">
+      <DependentUpon>UserControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl.aspx.designer.cs">
+      <DependentUpon>UserControl.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

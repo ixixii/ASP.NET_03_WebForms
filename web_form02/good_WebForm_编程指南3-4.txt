@@ -1,0 +1,18 @@
+https://www.w3cschool.cn/aspnet/yl8x1j3p.html
+
+ASP.NET 多线程 √
+ASP.NET 数据源 √
+ASP.NET 数据库存取 √
+ASP.NET 数据绑定 √
+ASP.NET 数据缓存 √
+ASP.NET 异常处理 √
+ASP.NET 调试 √
+ASP.NET 语言集成查询 √
+ASP.NET 自定义控件 √ (自定义控件-未完成)
+ASP.NET 个性化 X (ProfileCommon找不到类)
+
+
+ASP.NET Web 服务
+ASP.NET 安全性
+ASP.NET 配置
+ASP.NET 部署
